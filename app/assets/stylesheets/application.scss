@@ -29,7 +29,7 @@ html {
 .container {
   height: 100%;
   width: 100%;
-  padding: 0 0 0 0;
+  padding: 0;
 }
 
 .registration-bg {
@@ -63,6 +63,10 @@ html {
 
 .panel {
   border-radius: 8px;
+}
+
+.input {
+  margin: 10px 0;
 }
 
 .panel-heading {
@@ -115,9 +119,7 @@ html {
   .post-head {
     flex-direction: row;
     height: 64px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 24px;
+    padding: 24px 24px 0;
     color: #125688;
     font-size: 15px;
     line-height: 18px;
@@ -166,10 +168,7 @@ html {
     }
   }
   margin-bottom: 7px;
-  padding-top: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
+  padding: 24px;
   font-size: 15px;
   line-height: 18px;
 }
@@ -184,9 +183,7 @@ html {
 
 .comment-like-form {
   padding-top: 24px;
-  margin-top: 13px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 13px 24px 0;
   min-height: 68px;
   align-items: center;
   border-top: 1px solid #EEEFEF;
@@ -204,8 +201,7 @@ html {
 }
 
 .edit-links {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 20px 0 40px;
 }
 
 #image-preview {
@@ -245,4 +241,8 @@ html {
   a :hover {
     color: #2D6DA8;
   }
+}
+
+.form-actions {
+  padding: 0 15px 10px;
 }
